@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Indicar livros</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Indique um livro</h1>
+        <h2>Ou poste o seu</h2>
+        <form action="https://formsubmit.co/nostalgiebook@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://nostalgiebook.netlify.app/">
+    
+            <input type="hidden" name="_autoresponse" 
+            
+            value="Obrigado pela indicação do livro, Logo mais seu livro será adicionado na página fique atento!, enquanto isso que tal ler outros livros? dê uma olhada por lá, aposto que vai gostar.">
+    
+    
+            
+            <input type="text" name="name" placeholder="Nome completo">
+            <input type="email" name="email" placeholder="Email" >
+            <input type="text" name="subject" placeholder="Assunto">
+            <textarea name="message" placeholder="Envie aqui seu livro pdf em forma de link: dica: envie ele pro google drive e compartilha o link deixando ele público."></textarea>
+            
+
+
+            <div class="checkbox">
+                <input id="teste" type="checkbox" />
+                <label for="teste">Autorizo a publicação do meu livro</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
